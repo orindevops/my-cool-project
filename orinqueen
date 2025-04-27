@@ -1,0 +1,6 @@
+#!/bin/bash
+echo $(pgrep orinqueen)
+trap 'echo "קיבלתי Ctrl+C, יוצא מהסקריפט בעדינות..."; exit 1' SIGINT
+
+echo "רוץ רוץ רוץ..."
+sleep 5
