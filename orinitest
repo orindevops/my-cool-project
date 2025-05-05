@@ -1,3 +1,4 @@
 #!/bin/bash
 read -p "what is your name? " username
 echo "hi " $username
+echo"checking"
