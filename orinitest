@@ -2,3 +2,4 @@
 read -p "what is your name? " username
 echo "hi " $username
 echo"checking"
+hii im testing my skills
